@@ -4,7 +4,8 @@ import { W, image } from "../../../constants";
 
 const styles = StyleSheet.create({
   container: {
-    margin: 10,
+    marginLeft: (W-(W / 2.4*2))/3,
+    marginTop: (W-(W / 2.4*2))/3,
     width: W / 2.4,
     height: W * 0.63,
     backgroundColor: "blue",
